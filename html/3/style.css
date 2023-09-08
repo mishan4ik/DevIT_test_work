@@ -1,0 +1,57 @@
+.basic_block{
+
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.block{
+
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    animation-name:square;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes square{
+
+    0%{
+
+        transform: rotate(0deg);
+        background-color: #7dc9ac;
+
+    }
+
+    30%{
+
+        transform: rotate(30deg);
+        background-color: #cb99e0;
+    }
+
+    60%{
+
+        transform: rotate(60deg);
+        background-color:#dcdea4;
+    }
+
+    90%{
+
+        transform: rotate(90deg);
+        background-color:#cc587b;
+    }
+
+    100%{
+
+
+        transform: rotate(0deg);
+        background-color: #7dc9ac;
+
+    }
+
+
+}
+

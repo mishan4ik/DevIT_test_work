@@ -1,0 +1,29 @@
+.header,.sidebar,.navigation,.content,.footer{
+
+    display: grid;
+    justify-content: center;
+    border: 2px solid black;
+    min-width: 100%;
+
+}
+
+.header h1,.sidebar h1,.navigation h1,.content h1,.footer h1{
+
+    text-transform: uppercase;
+
+}
+
+.flip_block{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw
+
+}
+
+.header,.navigation,.sidebar,.content{
+
+    margin-bottom: 10px;
+
+}
+
